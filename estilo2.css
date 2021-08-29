@@ -1,0 +1,121 @@
+body 
+    {
+      margin: 0;
+      background: #ddd;
+    }
+.contenedor
+    {
+     display: flex;
+     justify-content: center;
+    }
+.paralelogramo{
+	margin: 150px 15px; 
+	width: 150px; 
+	height: 150px; 
+	-webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+     -ms-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     transform: skew(20deg);
+	background: aquamarine ; 
+	color: #fff; 
+	font-size: 35px; 
+	text-align: center; 
+	line-height: 150px; 
+	transition: all 1s; 
+}
+.circulo{
+	margin: 150px 15px;
+	width: 150px;
+     height: 150px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: aquamarine; 
+     color: #fff; 
+	font-size: 35px; 
+	text-align: center; 
+	line-height: 150px;
+	transition: all 1s;
+}
+.huevo{
+	margin: 150px 15px;
+	width: 150px;
+    height: 180px;
+    background-color: aquamarine;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    background: aquamarine; 
+    color: #fff; 
+    font-size: 35px; 
+	text-align: center; 
+	line-height: 150px;
+	transition: all 1s;
+
+}
+.semicirculo{
+	margin: 150px 15px;
+	 width: 100px; 
+     height: 50px; 
+     border: 0px solid #555; 
+     background: #5cb85c;
+     -moz-border-radius: 100px 100px 0 0;
+     -webkit-border-radius: 100px 100px 0 0;
+     border-radius: 100px 100px 0 0;
+      background: aquamarine; 
+    color: #fff; 
+    font-size: 35px; 
+	text-align: center; 
+	line-height: 150px;
+	transition: all 1s;
+}
+
+.paralelogramo:nth-child(1): {
+	
+	
+		
+}
+.paralelogramo:nth-child(1):hover
+{
+	
+	background: purple;
+	transform: translateX(100px)
+	
+}
+.circulo:nth-child(2): {
+	
+	
+		
+}
+.circulo:nth-child(2):hover
+{
+	background: blue;
+	transform: rotateY(45deg);
+	
+	
+}
+.huevo:nth-child(3): {
+	
+	
+		
+}
+.huevo:nth-child(3):hover
+{
+	background:Fuchsia;
+	transform: scaleX(2);
+	
+	
+}
+.semicirculo:nth-child(4): {
+	
+	
+		
+}
+.semicirculo:nth-child(4):hover
+{
+	background:Red;
+	transform: skewY(20deg);
+	
+	
+}
